@@ -1,0 +1,26 @@
+{
+  "name": "playwright-skill",
+  "version": "1.0.0",
+  "description": "Browser automation with Playwright for Claude Code with auto-detection and smart test management",
+  "author": "Brian Rebs",
+  "main": "run.js",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "install-all-browsers": "npx playwright install chromium firefox webkit"
+  },
+  "keywords": [
+    "playwright",
+    "ui-testing",
+    "browser-testing",
+    "web-scraping",
+    "claude-skill",
+    "automation"
+  ],
+  "dependencies": {
+    "playwright": "^1.57.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
